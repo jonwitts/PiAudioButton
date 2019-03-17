@@ -20,3 +20,7 @@ echo "Installing dependencies..."
 echo "=========================="
 apt-get install wget git python3 -y
 apt-get install python3-gpiozero python3-pygame -y
+
+# clone our repo from GitHub
+cd ~
+git clone https://github.com/jonwitts/PiAudioButton.git
