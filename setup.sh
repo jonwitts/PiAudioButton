@@ -18,5 +18,5 @@ apt-get dist-upgrade -y
 # install our required packages
 echo "Installing dependencies..."
 echo "=========================="
-apt-get install wget python3 -y
+apt-get install wget git python3 -y
 apt-get install python3-gpiozero python3-pygame -y
