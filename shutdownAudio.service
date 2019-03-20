@@ -1,5 +1,5 @@
 [Unit]
-Description=Pi Audio Button
+Description=Shutdown Button with Audio notification
 After=multi-user.target
 
 [Service]
