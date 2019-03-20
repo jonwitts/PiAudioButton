@@ -14,7 +14,7 @@ def shutdownAudio():
     pygame.mixer.stop()
     
     # load our shutdown sound
-    s = pygame.mixer.Sound("./audio_files/shutdown-sound.wav")
+    s = pygame.mixer.Sound("/PiAudioButton/audio_files/shutdown-sound.wav")
     # and play it
     s.play()
     # loop whilst mixer is busy
