@@ -18,7 +18,7 @@ apt-get dist-upgrade -y
 # install our required packages
 echo "Installing dependencies..."
 echo "=========================="
-apt-get install git python3 -y
+apt-get install git python3 omxplayer -y
 apt-get install python3-gpiozero python3-pygame -y
 
 # clone our repo from GitHub and move into directory
