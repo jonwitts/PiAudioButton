@@ -9,6 +9,7 @@ audio_btn = Button(17)
 pygame.init()
 
 bg = pygame.mixer.Sound("./audio_files/background.wav")
+bg.set_volume(0.5) # set volume to 50%
 bg.play(loops=-1) # loops indefinitely
 
 random_audio = ['./audio_files/random1.wav', './audio_files/random2.wav', './audio_files/random3.wav', './audio_files/random4.wav']
