@@ -18,7 +18,7 @@ random_audio = ['./audio_files/random1.wav', './audio_files/random2.wav', './aud
 while True:
     ranAud = pygame.mixer.Sound(choice(random_audio))
     ranAud.play()
-    time.sleep(2.0)
+    sleep(2.0)
 
 #def shutdownAudio():
     # stop all active mixer sounds from playing
