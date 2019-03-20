@@ -24,5 +24,5 @@ def shutdownAudio():
     # sound has stoped now shutdown
     system("sudo shutdown now -hP")
 
-shutdown_btn.when_held = shutdown
+shutdown_btn.when_held = shutdownAudio
 pause()
