@@ -24,7 +24,7 @@ apt-get install python3-gpiozero python3-pygame -y
 # clone our repo from GitHub and move into directory
 cd /
 git clone https://github.com/jonwitts/PiAudioButton.git
-cd /piAudioButton
+cd /PiAudioButton
 
 # copy and activate our systemd definitions
 echo "Copy and activate our systemd definitions..."
