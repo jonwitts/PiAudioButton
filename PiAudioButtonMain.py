@@ -18,4 +18,4 @@ while True:
     if audio_btn.is_pressed:
         ranAud = pygame.mixer.Sound(choice(random_audio))
         ranAud.play()
-        sleep(2)
+        sleep(5)
