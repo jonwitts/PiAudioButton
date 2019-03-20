@@ -20,4 +20,4 @@ while pygame.mixer.get_busy():
 
 # sound has stoped now shutdown
 #print("shutting down now")
-system("shutdown now -hP")
+system("sudo shutdown now -hP")
