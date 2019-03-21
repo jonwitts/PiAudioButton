@@ -31,7 +31,9 @@ echo "=========================="
 sed -i -e '$i sudo /PiAudioButton/PiAudioButtonMain.py &\n' /etc/rc.local
 
 # set our Pi to output audio through the 3.5mm jack
+# and turn the volume up
 amixer cset numid=3 1
+amixer set 'PCM' 90%
 
 # done
 echo "Done. Rebooting now"
