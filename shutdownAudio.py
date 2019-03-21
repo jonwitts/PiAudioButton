@@ -2,7 +2,7 @@
 
 import pygame
 from time import sleep
-#from os import system
+from os import system
 from signal import pause
 from gpiozero import Button
 
@@ -17,9 +17,6 @@ def shutdownAudio():
     s = pygame.mixer.Sound("/PiAudioButton/audio_files/shutdown-sound.wav")
     # and play it
     s.play()
-    # play audio wih omxplayer
-    #system("omxplayer /PiAudioButton/audio_files/shutdown-sound.wav")
-    #sleep(4)
     # loop whilst mixer is busy
     while pygame.mixer.get_busy():
         sleep(0.05)
