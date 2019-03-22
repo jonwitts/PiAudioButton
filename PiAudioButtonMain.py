@@ -36,6 +36,9 @@ def randomAudio():
     ranSnd = pygame.mixer.Sound(choice(random_audio))
     # now play it
     ranSnd.play()
+    # pause so the button can not
+    # be pressed continually
+    sleep(15)
 
 audio_btn.when_pressed = randomAudio
 shutdown_btn.when_held = shutdownAudio
